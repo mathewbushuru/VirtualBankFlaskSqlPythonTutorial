@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block head %}{% endblock %}
+
+{%block body%}
+    <p>WHAT DO YOU WANT TO DO TODAY?</p>
+    <a href="{{url_for('register',filename='/register.html')}}">1. Register an account with us</a><br><br>
+    <a href="{{url_for('login',filename='/login.html')}}">2. Log in to your account</a><br><br>
+{% endblock %}

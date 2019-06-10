@@ -1,0 +1,25 @@
+{% extends 'base.html' %} 
+
+{% block head %}{% endblock %}
+
+{%block body%}
+    <p> Lets create a bank account for you. But first,
+         we need some information from you ... <br></p>
+
+    <form action='/static//register.html' method="POST">
+        <label>Name: </label>
+        <input type="text" name="myName" id="myName"><br><br>
+
+        <label>ID Number: </label>
+        <input type="text" name="IDNo" id="IDNo"><br><br>
+
+        <label>Initial Deposit Amount: </label>
+        <input type="text" name="balance" id="balance"><br><br>
+
+        <input type="submit" value="Register">
+    
+    </form>
+
+    
+
+{% endblock %}

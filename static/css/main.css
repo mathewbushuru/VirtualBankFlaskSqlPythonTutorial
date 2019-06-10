@@ -1,0 +1,22 @@
+body{
+    background-color: #EFEFEF;
+    text-align: center;
+}
+h1{
+    color: #00A8A8;
+    background-color: #FFFFFF;
+}
+h2{
+    color:#00CECE;
+}
+p{
+    color: #324047;
+}
+a{
+    text-decoration: none;
+    color: #324047;
+}
+table,td,th,tr{
+    border: 1px solid;
+    margin: 100,10,10,10;
+}
